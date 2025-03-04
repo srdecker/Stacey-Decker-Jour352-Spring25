@@ -1,0 +1,12 @@
+.container {
+    background-color:blue;
+}
+
+.container-fluid {
+    background-color:red;
+}
+
+img {
+    width:100%;
+    padding:30px;
+}
