@@ -15,27 +15,93 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Frank+Ruhl+Libre:wght@300..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
             rel="stylesheet" />
 
         <link href="style.css" rel="stylesheet" />
     </head>
 
     <body>
+        <!--BASIC BOOTSTRAP CONTAINER-->
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-6">
-                    <h1>Stacey Decker</h1>
+                <div class="col"></div>
+            </div>
+        </div>
+        <!--END BASIC BOOTSTRAP CONTAINER-->
+
+        <div class="container-fluid" id="navigation">
+            <div class="row">
+                <div class="col-4"><h3>Experience</h3></div>
+                <div class="col-4"><h3>Skills</h3></div>
+                <div class="col-4"><h3>Education</h3></div>
+            </div>
+        </div>
+        <div class="container-fluid" id="topper">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h1>Stacey<br />Decker</h1>
                     <h2>Digital Editor</h2>
+                    <button>Contact Me</button>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-4">
                     <img src="Stacey_Decker_03.jpg" alt="Decker headshot" />
                 </div>
             </div>
+        </div>
+
+        <div class="container-fluid" id="navigation2">
             <div class="row">
-                <div class="col">
-                    <button>Contact Me</button>
+                <div class="col-sm-4">
+                    <h5><a href="#experience">Experience</a></h5>
                 </div>
+                <div class="col-sm-4"><h5><a href="#skills">Skills</a></h5></div>
+                <div class="col-sm-4"><h5>Education</h5></div>
+            </div>
+        </div>
+
+        <div class="contain-fluid" id="sections">
+            <div class="row">
+                <div class="col"><h4 id="experience">Experience</h4></div>
+            </div>
+            <div class="row jobs">
+                <div class="col-3">
+                    <p class="jobtitle">Job title</p>
+                    <p>Orgaization</p>
+                    <p>Dates</p>
+                </div>
+                <div class="col-9"><p>Description</p></div>
+            </div>
+            <div class="row jobs">
+                <div class="col-3">
+                    <p class="jobtitle">Job title</p>
+                    <p>Orgaization</p>
+                    <p>Dates</p>
+                </div>
+                <div class="col-9"><p>Description</p></div>
+            </div>
+            <div class="row jobs">
+                <div class="col-4">
+                    <p class="jobtitle">Job title</p>
+                    <p>Orgaization</p>
+                    <p>Dates</p>
+                    <p>Description</p>
+                </div>
+                <div class="col-4">
+                    <p class="jobtitle">Job title</p>
+                    <p>Orgaization</p>
+                    <p>Dates</p>
+                    <p>Description</p>
+                </div>
+                <div class="col-4">
+                    <p class="jobtitle">Job title</p>
+                    <p>Orgaization</p>
+                    <p>Dates</p>
+                    <p>Description</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col"><h4 id="skills">Skills</h4></div>
             </div>
         </div>
     </body>

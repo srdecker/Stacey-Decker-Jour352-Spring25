@@ -1,12 +1,131 @@
-h1 {
-    color:#462b2c;
-    font-family: "DynaPuff", serif;
+/*
+ * MY COLOR PALETTE
+Color 1 - #d1d5de
+Color 2 - #b7b6c2
+Color 3 - #837569
+Color 4 - #657153
+Color 5 - #8aaa79
+ */
+
+/*
+MY FONTS
+  font-family: "Frank Ruhl Libre", serif;
+  font-family: "DM Sans", sans-serif;
+ */
+
+/*THINGS TO SHOW
+ *spacing
+container, row columns
+adding navigation
+media queries
+adding line
+centering image
+centering button
+ */
+
+@media {
+    h1 {
+        color: #462b2c;
+        font-family: "Frank Ruhl Libre", serif;
+        font-size: 50px;
+        line-height: 1;
+        letter-spacing: -3px;
+        margin: 50px 0px 0px 10px;
+    }
+
+    h2 {
+        margin: 10px 0px 0px 50px;
+        font-family: "DM Sans", sans-serif;
+    }
+
+    img {
+        border-radius: 1000px;
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+
+    button {
+        border-radius: 20px;
+        border: 8px solid green;
+        width: 200px;
+        padding: 10px 50px 10px 50px;
+        font-family: "DM Sans", sans-serif;
+        margin: 50px auto 0px auto;
+        display: block;
+    }
+
+    button:hover {
+        background-color: black;
+        border: 8px solid blue;
+    }
+
+    body {
+        background-color: #b7b6c2;
+    }
+
+    #topper {
+        /*background-image: url(Stacey_Decker_03.jpg);
+    background-size: cover;
+    background-position: 0 30%;*/
+        height: 600px;
+    }
+
+    #navigation {
+        margin: 20px 0px 0px 0px;
+        text-align: center;
+        background-color: #837569;
+        color: #d1d5de;
+    }
+
+    h3 {
+        padding: 25px 0px 25px 0px;
+    }
+
+    h4 {
+        text-decoration: underline;
+        background-color: #837569;
+        border-bottom: 5px solid white;
+        padding: 0px 0px 10px 0px;
+    }
+
+    .jobtitle {
+        color: lawngreen;
+        font-size: 50px;
+        font-family: Georgia, serif;
+    }
+
+    .jobs {
+        margin: 20px 0px 0px 0px;
+    }
+
+    #navigation2 {
+        text-align: center;
+    }
+
+    #navigation2 a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    #navigation2 a:hover {
+        color: white;
+        text-decoration: underline;
+        text-transform: uppercase;
+    }
 }
 
-img {
-    width:100%;
+@media (min-width: 576px) {
+    h1 {
+        font-size: 100px;
+        margin: 50px 0px 0px 50px;
+    }
 }
 
-button {
-    width:100%;
+@media (min-width: 768px) {
+    h1 {
+        font-size: 120px;
+        margin: 50px 0px 0px 50px;
+    }
 }
