@@ -1,0 +1,79 @@
+/*
+MY COLOR PALETTE
+Color 1 - #d1d5de
+Color 2 - #b7b6c2
+Color 3 - #837569
+Color 4 - #657153
+Color 5 - #8aaa79
+
+MY FONTS
+  font-family: "Frank Ruhl Libre", serif;
+  font-family: "DM Sans", sans-serif;
+*/
+
+body {
+    background-color: #d1d5de;
+}
+
+h1 {
+    color: #837569;
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 170px;
+    margin: 20px 0px 0px 100px;
+    font-weight: 100px;
+    line-height: 0.9;
+    letter-spacing: -8px;
+}
+
+.lastname {
+    color: #b7b6c2;
+}
+
+h2 {
+    padding: 0px 0px 0px 25px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 50px;
+    margin: 20px 0px 0px 100px;
+    color: #8aaa79;
+    font-weight: 300;
+}
+
+img {
+    width: 80%;
+    border-radius: 20px;
+    margin: 20px 0px 0px 0px;
+    border: 10px solid #b7b6c2;
+    text-align: center;
+}
+
+button {
+    width: 300px;
+    border-radius: 20px;
+    border: 10px solid #b7b6c2;
+    padding: 10px;
+    font-family: "DM Sans", sans-serif;
+    margin: 100px auto 0px auto;
+    display: block;
+    font-weight: 300;
+    background-color: #657153;
+    color: #d1d5de;
+    font-size: 20px;
+}
+
+#button2 {
+    width: 300px;
+    border-radius: 20px;
+    border: 10px solid #b7b6c2;
+    padding: 10px;
+    font-family: "DM Sans", sans-serif;
+    margin: 20px 0px 0px 100px;
+    display: block;
+    font-weight: 300;
+    background-color: #657153;
+    color: #d1d5de;
+    font-size: 20px;
+}
+
+button:hover {
+    border: 10px solid #8aaa79;
+}
