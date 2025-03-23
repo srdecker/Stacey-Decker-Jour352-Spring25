@@ -23,7 +23,7 @@ centering image
 centering button
  */
 
-@media {
+@media screen {
     h1 {
         color: #462b2c;
         font-family: "Frank Ruhl Libre", serif;
@@ -123,7 +123,7 @@ centering button
     }
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     h1 {
         font-size: 120px;
         margin: 50px 0px 0px 50px;

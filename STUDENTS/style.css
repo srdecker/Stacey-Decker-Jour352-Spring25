@@ -1,0 +1,151 @@
+/*
+MY COLOR PALETTE
+color 1: #868596 gray
+color 2: #c48e7c brownish
+*/
+@media {
+    img {
+        width: 100%;
+        border-radius: 50%;
+        margin: 20px 0px 20px 0px;
+    }
+
+    .content {
+        background-color: #868596;
+    }
+
+    h1 {
+        font-family: "League Spartan", serif;
+        font-size: 115px;
+        margin: 30px 0px -24px 50px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    h2 {
+        font-family: "League Spartan", serif;
+        padding: 10px;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 100px;
+        text-align: center;
+        font-family: "League Spartan", serif;
+        background-color: #868596;
+        color: white;
+    }
+
+    h6 {
+        font-family: "League Spartan", serif;
+        padding: 10px;
+        font-size: 30px;
+        text-align: center;
+        background-color: #868596;
+        color: white;
+    }
+
+    #intro {
+        background-color: #868596;
+        color: white;
+        font-family: "League Spartan", serif;
+        text-align: center;
+        font-size: 70px;
+        border-bottom: 16px solid #c48e7c;
+    }
+
+    #intro p {
+        padding: 10px 0px 0px 0px;
+        margin: 0px;
+    }
+
+    .button {
+        background-color: #c48e7c;
+        color: white;
+        font-family: "League Spartan", serif;
+        border-radius: 100px;
+        width: 430px;
+        padding: 20px;
+        font-size: 50px;
+        height: 150px;
+        border: none;
+        margin: 0px auto 0px auto;
+        display: block;
+        text-align: center;
+        line-height: 110px;
+    }
+
+    .button:hover {
+        background-color: #372b2c;
+    }
+
+    .button:active {
+        background-color: #4169e1;
+    }
+
+    .experience-section {
+        background-color: #868596;
+        padding: none;
+        margin: none;
+    }
+
+    .job-title {
+        font-family: "League Spartan", serif;
+        color: white;
+    }
+
+    .company {
+        font-family: "League Spartan", serif;
+        color: white;
+    }
+
+    .description {
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        text-indent: 12px;
+    }
+
+    .job-date {
+        font-family: "League Spartan", serif;
+        color: white;
+    }
+
+    .skillright {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .skillsleft {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .schoolname {
+        color: white;
+        font-family: "League Spartan", serif;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .degree {
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-size: 18px;
+        padding-left: 20px;
+    }
+
+    .education-section {
+        background-color: #868596;
+    }
+
+    .education-list li {
+        color: white;
+    }
+
+    .education-list {
+        list-style-type: disc;
+    }
+} /*This will close your first media query*/
+
+@media (min-width: 576px) {
+}
