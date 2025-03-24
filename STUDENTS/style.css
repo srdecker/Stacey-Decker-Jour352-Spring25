@@ -1,151 +1,247 @@
-/*
-MY COLOR PALETTE
-color 1: #868596 gray
-color 2: #c48e7c brownish
-*/
-@media {
-    img {
-        width: 100%;
-        border-radius: 50%;
-        margin: 20px 0px 20px 0px;
-    }
+h1 {
+    color: #322214;
+    font-family: "STIX Two Text", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    margin-top:10px;
+    margin-left:40px;
+}
 
-    .content {
-        background-color: #868596;
-    }
+h2 {
+    font-family: "Oranienbaum", serif;
+    font-weight: 427;
+    font-style: normal;
+    margin-top: 10px;
+    margin-left:45px;
+}
+#navigation a {
+   color: #f4f3ee;
+}
+#navigation a:hover{
+    color: #bcb8b1;
+}
 
-    h1 {
-        font-family: "League Spartan", serif;
-        font-size: 115px;
-        margin: 30px 0px -24px 50px;
-        text-align: center;
-        letter-spacing: 2px;
-    }
-    h2 {
-        font-family: "League Spartan", serif;
-        padding: 10px;
-        font-size: 50px;
-        text-align: center;
-    }
+button {
+    border-radius: 22px;
+    border: medium;
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #4c443c;
+    background-color: #8a817c;
+    padding: 10px 50px 10px 50px;
+    width: 291px;
+    height: 69px;
+    margin-top: 75px;
+    margin-left:35px;
+    display: block;
+    text-align: center;
+}
+button:hover {
+    background-color: #bcb8b1;
+}
 
-    h3 {
-        font-size: 100px;
-        text-align: center;
-        font-family: "League Spartan", serif;
-        background-color: #868596;
-        color: white;
-    }
+img {
+    border-radius: 77%;
+    display: block;
+    margin: 100px auto 25px 50px;
+    height: 280px;
+    border: 9px solid #8a817c;
+}
+body {
+    background-color: #f4f3ee;
+}
+#navigation {
+    background-color: #5f544a;
+    color: #bcb8b1;
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
-    h6 {
-        font-family: "League Spartan", serif;
-        padding: 10px;
-        font-size: 30px;
-        text-align: center;
-        background-color: #868596;
-        color: white;
-    }
-
-    #intro {
-        background-color: #868596;
-        color: white;
-        font-family: "League Spartan", serif;
-        text-align: center;
-        font-size: 70px;
-        border-bottom: 16px solid #c48e7c;
-    }
-
-    #intro p {
-        padding: 10px 0px 0px 0px;
-        margin: 0px;
-    }
-
-    .button {
-        background-color: #c48e7c;
-        color: white;
-        font-family: "League Spartan", serif;
-        border-radius: 100px;
-        width: 430px;
-        padding: 20px;
-        font-size: 50px;
-        height: 150px;
-        border: none;
-        margin: 0px auto 0px auto;
-        display: block;
-        text-align: center;
-        line-height: 110px;
-    }
-
-    .button:hover {
-        background-color: #372b2c;
-    }
-
-    .button:active {
-        background-color: #4169e1;
-    }
-
-    .experience-section {
-        background-color: #868596;
-        padding: none;
-        margin: none;
-    }
-
-    .job-title {
-        font-family: "League Spartan", serif;
-        color: white;
-    }
-
-    .company {
-        font-family: "League Spartan", serif;
-        color: white;
-    }
-
-    .description {
-        font-family: "Montserrat", sans-serif;
-        color: white;
-        text-indent: 12px;
-    }
-
-    .job-date {
-        font-family: "League Spartan", serif;
-        color: white;
-    }
-
-    .skillright {
-        display: flex;
-        justify-content: flex-start;
-    }
-
-    .skillsleft {
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .schoolname {
-        color: white;
-        font-family: "League Spartan", serif;
-        font-size: 24px;
-        font-weight: bold;
-    }
-
-    .degree {
-        color: white;
-        font-family: "Montserrat", sans-serif;
-        font-size: 18px;
-        padding-left: 20px;
-    }
-
-    .education-section {
-        background-color: #868596;
-    }
-
-    .education-list li {
-        color: white;
-    }
-
-    .education-list {
-        list-style-type: disc;
-    }
-} /*This will close your first media query*/
+#navigation-text {
+    text-decoration-color: #f4f3ee;
+}
 
 @media (min-width: 576px) {
+    font-size: 100px;
 }
+
+h3 {
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 7px;
+}
+h4 {
+    font-family: "STIX Two Text", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    text-decoration-line: underline;
+    text-decoration-color: #bcb8b1;
+    padding-top: 10px;
+    margin-left: 35px;
+}
+
+.engagementeditor {
+    font-family: "Oranienbaum", serif;
+    font-weight: 427;
+    font-style: normal;
+    font-size: 45px;
+    margin: 25px auto 11px 71px;
+}
+.diamondback {
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #8a817c;
+    margin-left: 71px;
+    font-size: 25px;
+}
+
+.description1 {
+    margin-left: 71px;
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dates {
+    margin-left: 25px;
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #354f52;
+    font-size: 30px;
+}
+
+.freelancereporter {
+    font-family: "Oranienbaum", serif;
+    font-weight: 427;
+    font-style: normal;
+    font-size: 45px;
+    margin: 25px auto 11px 71px;
+}
+
+.gnr {
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #8a817c;
+    margin-left: 70px;
+    font-size: 25px;
+}
+
+.description2 {
+    margin-left: 71px;
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+}
+
+.dates2 {
+    margin-left: 25px;
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #354f52; 
+    font-size: 30px;
+}
+h5{
+   font-family: "STIX Two Text", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal; 
+    font-size:50px;
+    text-decoration-line: underline;
+    text-decoration-color: #bcb8b1;
+    padding:50px auto 10px auto;
+    margin: 25px auto 15px 25px;
+}
+
+.line1{
+    border: 42px;
+    height: 2px;
+    width: 100%;
+    margin: 20px 0; 
+    background-color: #4c443c;
+}
+ul{
+    margin-left: 25px;
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    font-style: normal; 
+    padding: 10px auto 10px auto;
+    font-size:25px;
+}
+.line2{
+    border: 42px;
+    height: 2px;
+    width: 100%;
+    margin: 20px 0; 
+    background-color: #4c443c;
+}
+
+h6{
+    font-family: "STIX Two Text", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal; 
+    font-size:50px;
+    text-decoration-line: underline;
+    text-decoration-color: #bcb8b1;
+    padding:50px auto 10px auto;
+    margin: 25px auto 15px 25px;
+}
+
+.degree{
+    font-family: "Oranienbaum", serif;
+    font-style: bold;
+    font-weight: 900;
+    font-size: 30px;
+    margin: 25px auto 5px 40px;
+}
+.UMD{
+    font-family: "Oranienbaum", serif;
+    font-weight: 500;
+    font-style: italic;
+    color: #8a817c;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.years{
+    margin-left: 40px;
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black; 
+    font-size: 25px; 
+}
+#footer{
+  background-color: #5f544a;
+    color: #bcb8b1;
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+}
+
+/*
+MY COLOR PALETTE
+Color 1 - #4c443c
+Color 2 - #f4f3ee
+Color 3 - #5f544a
+Color 4 - #8a817c
+Color 5 - #bcb8b1
+Color 6 - #354F52
+*/
