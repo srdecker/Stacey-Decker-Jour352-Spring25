@@ -1,18 +1,128 @@
-@media {
-    h1 {
-        color: #322214;
-        font-family: "STIX Two Text", serif;
-        font-optical-sizing: auto;
-        font-weight: normal;
-        font-style: normal;
-        font-size: 50px;
-        margin-top: 10px;
-        margin-left: 40px;
-    }
+.custom-nav {
+    background-color: #2e4057;
+    padding: 10px 0;
 }
 
-@media (min-width: 576px) {
-    h1 {
-        font-size: 100px;
-    }
+.custom-nav .navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.custom-nav .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.custom-nav .nav-link:hover {
+    color: #94bf27;
+    text-decoration: underline;
+    text-decoration-color: #89b0ae;
+}
+
+#topper {
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#headshot {
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid #2e4057;
+}
+
+body {
+    background-color: #f3ffeb;
+}
+
+#button {
+    background-color: #94bf27;
+    border: none;
+    border-radius: 17px;
+    padding: 15px 72px;
+    text-transform: uppercase;
+    margin: 8px;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 7px;
+}
+
+#button:hover {
+    background-color: #89b0ae;
+}
+
+.full-width-header {
+    background-color: #cbe6e5;
+    text-align: center;
+    width: 100%;
+}
+h1 {
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    font-weight: bold;
+    font-size: 59px;
+    text-decoration: underline;
+    text-decoration-color: #94bf27;
+}
+
+h2 {
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+}
+
+h3 {
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    padding: 29px;
+    font-size: 36px;
+    text-decoration: underline;
+    background-color: #89b0ae;
+    color: #2e4057;
+    font-weight: bold;
+}
+
+h4 {
+    margin: 10px auto;
+}
+
+#skills {
+    text-align: center;
+}
+
+#education {
+    text-align: center;
+    font-size: 28px;
+}
+
+#experience {
+    text-align: center;
+}
+
+ul {
+    list-style-type: square;
+    text-align: center;
+    padding-left: 20px;
+    list-style-position: inside;
+}
+
+#footer {
+    background-color: #2e4057;
+    color: white;
+    padding: 32px 0;
 }

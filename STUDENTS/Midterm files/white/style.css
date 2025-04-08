@@ -1,0 +1,29 @@
+@media screen{
+    
+    body{
+        font-family: Georgia, serif;
+    }  
+    #article{
+        width: 70%
+        margin: auto; 
+    }
+    
+    h1{
+        font-size: 50px;
+    }
+    #date{
+        color: gray;
+        font-size: 10px;
+    }
+    #byline{
+        text-decoration: bold;
+    }
+    img{
+        width: 100%;
+    }
+}
+@media (min-width: 576px){
+    h1{
+        font-size: 80px;
+    }
+}
