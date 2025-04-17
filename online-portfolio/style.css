@@ -1,131 +1,198 @@
 /*
- * MY COLOR PALETTE
-Color 1 - #d1d5de
-Color 2 - #b7b6c2
-Color 3 - #837569
-Color 4 - #657153
-Color 5 - #8aaa79
- */
-
-/*
-MY FONTS
-  font-family: "Frank Ruhl Libre", serif;
-  font-family: "DM Sans", sans-serif;
- */
-
-/*THINGS TO SHOW
- *spacing
-container, row columns
-adding navigation
-media queries
-adding line
-centering image
-centering button
- */
-
+MY COLOR PALETTE
+Color 1 - #fff6ea
+Color 2 - #614c49
+Color 3 - #a4a39a
+Color 4 - #334a36
+Color 5 - 
+*/
 @media screen {
-    h1 {
-        color: #462b2c;
-        font-family: "Frank Ruhl Libre", serif;
-        font-size: 50px;
-        line-height: 1;
-        letter-spacing: -3px;
-        margin: 50px 0px 0px 10px;
-    }
+  h1 {
+    color: #614c49;
+    font-family: bricolage-grotesque;
+    font-size: 75px;
+    margin:200px auto auto 400px;
+justify-content: center;
+  }
 
-    h2 {
-        margin: 10px 0px 0px 50px;
-        font-family: "DM Sans", sans-serif;
-    }
+  h2 {
+    color: #614c49;
+    font-family: bricolage-grotesque;
+    justify-content:center;
+    margin:25px auto auto 400px;
+  
+  }
 
-    img {
-        border-radius: 1000px;
-        text-align: center;
-        display: block;
-        width: 100%;
-    }
+  body {
+    background-color: #fff6ea;
+  }
 
-    button {
-        border-radius: 20px;
-        border: 8px solid green;
-        width: 200px;
-        padding: 10px 50px 10px 50px;
-        font-family: "DM Sans", sans-serif;
-        margin: 50px auto 0px auto;
-        display: block;
-    }
+  button {
+    border-radius: 20px;
+    border: none;
+    font-family: bricolage-grotesque;
+     justify-content:center;
+    width: 200px;
+    padding: 20px;
+    margin:25px auto auto 400px;
+  }
 
-    button:hover {
-        background-color: black;
-        border: 8px solid blue;
-    }
+  button a {
+    color: black;
+  }
 
-    body {
-        background-color: #b7b6c2;
-    }
+  button:hover {
+    background-color: #a4a39a;
+  }
 
-    #topper {
-        /*background-image: url(Stacey_Decker_03.jpg);
-    background-size: cover;
-    background-position: 0 30%;*/
-        height: 600px;
-    }
+  h3 {
+    margin: auto;
+    font-family: "Open Sans", serif;
+  }
 
-    #navigation {
-        margin: 20px 0px 0px 0px;
-        text-align: center;
-        background-color: #837569;
-        color: #d1d5de;
-    }
+  h4 {
+    font-size: 50px;
+    font-family: "Open Sans", serif;
+  }
 
-    h3 {
-        padding: 25px 0px 25px 0px;
-    }
+  img {
+    width: 125%;
+    border-radius: 25px;
+    text-align: center;
+    margin: 100px auto 0px 100px;
+    display: block;
+  }
 
-    h4 {
-        text-decoration: underline;
-        background-color: #837569;
-        border-bottom: 5px solid white;
-        padding: 0px 0px 10px 0px;
-    }
+  #topper {
+    background-color: #fff6ea;
+  }
 
-    .jobtitle {
-        color: lawngreen;
-        font-size: 50px;
-        font-family: Georgia, serif;
-    }
+  #navigation {
+    margin: 100px;
+    padding: 25px;
+    width: auto;
+    background-color: #614c49;
+    color: white;
+  }
 
-    .jobs {
-        margin: 20px 0px 0px 0px;
-    }
+  .nav a {
+    color: white;
+  }
 
-    #navigation2 {
-        text-align: center;
-    }
+  .nav a:hover {
+    color: lightgray;
+  }
 
-    #navigation2 a {
-        color: white;
-        text-decoration: none;
-        text-transform: uppercase;
-    }
+  #experience {
+    margin: 25px auto 0px auto;
+  }
 
-    #navigation2 a:hover {
-        color: white;
-        text-decoration: underline;
-        text-transform: uppercase;
-    }
+  .jobtitle {
+    font-family: "Open Sans", serif;
+    font-size: 25px;
+    color: #334a36;
+    margin: auto auto 0px 25px;
+    font-weight: bold;
+  }
+
+  .employer {
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    color: #334a36;
+    margin: auto auto 0px 25px;
+  }
+
+  .dates {
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    color: #334a36;
+    margin: auto auto 0px 25px;
+  }
+
+  .jobdescription {
+    font-family: "Open Sans", serif;
+    color: #334a36;
+    margin: auto auto 0px 25px;
+  }
+
+  #skills {
+    margin: 25px auto 0px auto;
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    color: #334a36;
+  }
+
+  #education {
+    margin: 25px auto 0px 10px;
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    color: #334a36;
+  }
+
+  .edu {
+    margin: auto auto 0px 25px;
+  }
+
+  #footer {
+    background-color: #614c49;
+    color: white;
+    margin: 25px auto auto;
+    padding: 25px;
+    width: 100%;
+  }
+
+  .bricolage-grotesque {
+    font-family: "Bricolage Grotesque", serif;
+    font-optical-sizing: auto;
+    font-weight: 100%;
+    font-style: bold;
+    font-variation-settings: "width" 100;
+  }
+
+  .open-sans {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 100%;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
 }
 
 @media (min-width: 576px) {
-    h1 {
-        font-size: 100px;
-        margin: 50px 0px 0px 50px;
-    }
-}
+  body {
+    background-color: #fff6ea;
+  }
 
-@media screen and (min-width: 768px) {
-    h1 {
-        font-size: 120px;
-        margin: 50px 0px 0px 50px;
-    }
+  h1 {
+    color: #614c49;
+    font-family: bricolage-grotesque;
+    text-align: bottom;
+    justify-content: center;
+  }
+
+  h2 {
+    color: #614c49;
+    font-size: 50px;
+    font-family: bricolage-grotesque;
+    justify-content: center;
+  }
+
+  button {
+    border-radius: 25px;
+    border: none;
+    font-family: bricolage-grotesque;
+    width: 200px;
+    justify-content: center;
+  }
+
+  h3 {
+    margin: auto;
+    font-family: "Open Sans", serif;
+    justify-content: center;
+  }
+
+  h4 {
+    font-size: 60px;
+    font-family: "Open Sans", serif;
+  }
 }

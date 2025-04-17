@@ -1,128 +1,198 @@
-.custom-nav {
-    background-color: #2e4057;
-    padding: 10px 0;
-}
+/*
+MY COLOR PALETTE
+Color 1 - #fff6ea
+Color 2 - #614c49
+Color 3 - #a4a39a
+Color 4 - #334a36
+Color 5 - 
+*/
+@media screen {
+  h1 {
+    color: #614c49;
+   font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 75px;
+    margin:200px auto auto 400px;
+justify-content: center;
+  }
 
-.custom-nav .navbar-nav {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
+  h2 {
+    color: #614c49;
+    font-family: bricolage-grotesque;
+    justify-content:center;
+    margin:25px auto auto 400px;
+  
+  }
 
-.custom-nav .nav-link {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    transition: color 0.3s ease-in-out;
-}
+  body {
+    background-color: #fff6ea;
+  }
 
-.custom-nav .nav-link:hover {
-    color: #94bf27;
-    text-decoration: underline;
-    text-decoration-color: #89b0ae;
-}
-
-#topper {
-    background-size: cover;
-    background-position: center;
-    padding: 50px 0;
-    text-align: center;
-}
-
-#headshot {
-    display: block;
-    margin: 20px auto;
-    width: 400px;
-    height: auto;
-    border-radius: 50%;
-    border: 4px solid #2e4057;
-}
-
-body {
-    background-color: #f3ffeb;
-}
-
-#button {
-    background-color: #94bf27;
+  button {
+    border-radius: 20px;
     border: none;
-    border-radius: 17px;
-    padding: 15px 72px;
-    text-transform: uppercase;
-    margin: 8px;
-    font-size: larger;
-    font-weight: bold;
-    color: white;
-    letter-spacing: 7px;
-}
+    font-family: bricolage-grotesque;
+     justify-content:center;
+    width: 200px;
+    padding: 20px;
+    margin:25px auto auto 400px;
+  }
 
-#button:hover {
-    background-color: #89b0ae;
-}
+  button a {
+    color: black;
+  }
 
-.full-width-header {
-    background-color: #cbe6e5;
+  button:hover {
+    background-color: #a4a39a;
+  }
+
+  h3 {
+    margin: auto;
+    font-family: "Open Sans", serif;
+  }
+
+  h4 {
+    font-size: 50px;
+    font-family: "Open Sans", serif;
+  }
+
+  img {
+    width: 125%;
+    border-radius: 25px;
     text-align: center;
+    margin: 100px auto 0px 100px;
+    display: block;
+  }
+
+  #topper {
+    background-color: #fff6ea;
+  }
+
+  #navigation {
+    margin: 100px;
+    padding: 25px;
+    width: auto;
+    background-color: #614c49;
+    color: white;
+  }
+
+  .nav a {
+    color: white;
+  }
+
+  .nav a:hover {
+    color: lightgray;
+  }
+
+  #experience {
+    margin: 25px auto 0px auto;
+  }
+
+  .jobtitle {
+    font-family: "Open Sans", serif;
+    font-size: 25px;
+    color: #334a36;
+    margin: auto auto 0px 25px;
+    font-weight: bold;
+  }
+
+  .employer {
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    color: #334a36;
+    margin: auto auto 0px 25px;
+  }
+
+  .dates {
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    color: #334a36;
+    margin: auto auto 0px 25px;
+  }
+
+  .jobdescription {
+    font-family: "Open Sans", serif;
+    color: #334a36;
+    margin: auto auto 0px 25px;
+  }
+
+  #skills {
+    margin: 25px auto 0px auto;
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    color: #334a36;
+  }
+
+  #education {
+    margin: 25px auto 0px 10px;
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    color: #334a36;
+  }
+
+  .edu {
+    margin: auto auto 0px 25px;
+  }
+
+  #footer {
+    background-color: #614c49;
+    color: white;
+    margin: 25px auto auto;
+    padding: 25px;
     width: 100%;
-}
-h1 {
-    font-family: "Playfair Display", serif;
-    text-align: center;
-    display: block;
-    margin: 10px auto;
-    font-weight: bold;
-    font-size: 59px;
-    text-decoration: underline;
-    text-decoration-color: #94bf27;
+  }
+
+  .bricolage-grotesque {
+    font-family: "Bricolage Grotesque", serif;
+    font-optical-sizing: auto;
+    font-weight: 100%;
+    font-style: bold;
+    font-variation-settings: "width" 100;
+  }
+
+  .open-sans {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 100%;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
 }
 
-h2 {
-    font-family: "Playfair Display", serif;
-    text-align: center;
-    display: block;
-    margin: 10px auto;
-}
+@media (min-width: 576px) {
+  body {
+    background-color: #fff6ea;
+  }
 
-h3 {
-    font-family: "Playfair Display", serif;
-    text-align: center;
-    display: block;
-    margin: 10px auto;
-    padding: 29px;
-    font-size: 36px;
-    text-decoration: underline;
-    background-color: #89b0ae;
-    color: #2e4057;
-    font-weight: bold;
-}
+  h1 {
+    color: #614c49;
+    font-family: bricolage-grotesque;
+    text-align: bottom;
+    justify-content: center;
+  }
 
-h4 {
-    margin: 10px auto;
-}
+  h2 {
+    color: #614c49;
+    font-size: 50px;
+    font-family: bricolage-grotesque;
+    justify-content: center;
+  }
 
-#skills {
-    text-align: center;
-}
+  button {
+    border-radius: 25px;
+    border: none;
+    font-family: bricolage-grotesque;
+    width: 200px;
+    justify-content: center;
+  }
 
-#education {
-    text-align: center;
-    font-size: 28px;
-}
+  h3 {
+    margin: auto;
+    font-family: "Open Sans", serif;
+    justify-content: center;
+  }
 
-#experience {
-    text-align: center;
-}
-
-ul {
-    list-style-type: square;
-    text-align: center;
-    padding-left: 20px;
-    list-style-position: inside;
-}
-
-#footer {
-    background-color: #2e4057;
-    color: white;
-    padding: 32px 0;
+  h4 {
+    font-size: 60px;
+    font-family: "Open Sans", serif;
+  }
 }
