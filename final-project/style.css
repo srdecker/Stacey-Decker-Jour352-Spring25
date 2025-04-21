@@ -1,0 +1,46 @@
+/*Color Palette
+ * Black - #2f292b
+ * 
+ * 
+ * 
+ * */
+
+@media screen {
+    h1 {
+        font-family: "Poppins", sans-serif;
+        color: white;
+        margin: 20px 0px 300px 0px;
+    }
+
+    #topper {
+        background-color: #2f292b;
+    }
+
+    #topper2 {
+        background-image: url(00circustown-jtcm-superJumbo.jpg);
+        background-size: cover;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    #leadimage {
+        background-image: url(00circustown-jtcm-superJumbo.jpg);
+        background-size: cover;
+        background-position: 25% 25%;
+        padding:100px;
+    }
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 80px;
+    }
+}
