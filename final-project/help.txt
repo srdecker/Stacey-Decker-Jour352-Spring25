@@ -1,0 +1,22 @@
+- Adding a pull quote w/quote mark
+- Adding an interactive element
+
+
+- Things that don't look right
+>> Check margins and padding
+>> Check Bootstrap containers, rows, columns
+>> Look where elements close
+>> Avoid using position fixed
+>> Know what the code is saying
+>> Media queries
+
+- Bootstrap - common issues
+
+
+
+- Text on top of or next to an image
+- Game/poll/quiz
+- section/headers
+- Slideshow
+- Background colors by section
+- Video

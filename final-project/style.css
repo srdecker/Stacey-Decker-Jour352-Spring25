@@ -13,17 +13,17 @@
 
     h1 {
         font-family: "Rye", serif;
-        color:#707f9c;
-        margin: 80px 40px 10px 40px;
+        color: #707f9c;
+        margin: 80px 40px 400px 40px;
         text-align: center;
-        line-height:1em;
+        line-height: 1em;
     }
 
     #topper2 {
         background-image: url(00circustown-jtcm-superJumbo.jpg);
         background-size: cover;
-        background-size: cover;
         background-position: 25% 25%;
+        height: 100vh;
     }
 
     #topper {
@@ -43,7 +43,64 @@
 
     p {
         font-family: "Radley", serif;
-        color:#2f292b;
+        color: #2f292b;
+        font-size: 18px;
+    }
+
+    .storytext {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .inline-image {
+        width: 100%;
+    }
+
+    .disclaimer {
+        font-style: italic;
+    }
+
+    a {
+        color: #6d6324;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .pullquote {
+        /*margin: 0px 0px 0px 60px;*/
+        border-top: 3px solid #707f9c;
+        width: 60%;
+        padding: 20px 0px 0px 0px;
+        margin: auto;
+    }
+
+    .quotemark {
+        font-size: 150px;
+        font-family: "Radley", serif;
+        line-height: 0em;
+        float: left;
+        padding: 50px 0px 0px 0px;
+    }
+
+    .quote {
+        font-size: 50px;
+        line-height: 1.2em;
+        padding: 0px 0px 0px 20px;
+    }
+
+    .name {
+        padding: 0px 0px 0px 20px;
+    }
+
+    #content {
+        padding: 0px;
+    }
+
+    .whitebackground {
+        background-color: white;
     }
 }
 
@@ -51,10 +108,18 @@
     h1 {
         font-size: 60px;
     }
+
+    .storytext {
+        padding: 0px 40px 0px 40px;
+    }
 }
 
 @media (min-width: 768px) {
     h1 {
         font-size: 80px;
+    }
+
+    .storytext {
+        padding: 0px 400px 0px 400px;
     }
 }
