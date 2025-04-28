@@ -120,6 +120,18 @@
     }
 
     .storytext {
+        padding: 0px 100px 0px 100px;
+    }
+}
+
+@media (min-width: 992px) {
+    .storytext {
+        padding: 0px 200px 0px 200px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .storytext {
         padding: 0px 400px 0px 400px;
     }
 }
