@@ -1,35 +1,49 @@
 /*Color Palette
  * Black - #2f292b
- * 
- * 
+ * Blue - #707f9c
+ * Green - #6d6324
+ * Tan - #eae8ec
  * 
  * */
 
 @media screen {
-    h1 {
-        font-family: "Poppins", sans-serif;
-        color: white;
-        margin: 20px 0px 300px 0px;
+    body {
+        background-color: #eae8ec;
     }
 
-    #topper {
-        background-color: #2f292b;
+    h1 {
+        font-family: "Rye", serif;
+        color:#707f9c;
+        margin: 80px 40px 10px 40px;
+        text-align: center;
+        line-height:1em;
     }
 
     #topper2 {
         background-image: url(00circustown-jtcm-superJumbo.jpg);
         background-size: cover;
+        background-size: cover;
+        background-position: 25% 25%;
     }
 
-    img {
-        width: 100%;
+    #topper {
+        background-color: #eae8ec;
+    }
+
+    #halfimage {
+        /*object-fit: cover;*/
+        /*height:100vh*/
+        height: 800px;
     }
 
     #leadimage {
-        background-image: url(00circustown-jtcm-superJumbo.jpg);
-        background-size: cover;
-        background-position: 25% 25%;
-        padding:100px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    p {
+        font-family: "Radley", serif;
+        color:#2f292b;
     }
 }
 
